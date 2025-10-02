@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bai1_1"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-25 03:53:11 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDM6MDU6NDcgUE07MjUyNQ=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDM6NTM6MTEgUE07MTsyNjI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <declare name="S" type="Real" array="False" size=""/>
+            <output expression="&quot;Nhap ban kinh: &quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="s" expression="3.14*r*r"/>
+            <output expression="&quot;Dien tich hinh tron la: &quot; &amp; S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

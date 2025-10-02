@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bai1_3"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-02 02:34:28 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMTAtMDI7MDI6MTQ6NTcgUE07MjUxMg=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMTAtMDI7MDI6MzQ6MjggUE07MTsyNjIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p b&#225;n k&#237;nh &#273;&#432;&#7901;ng tr&#242;n: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Dien tich la&quot; &amp; 3.14*x*x" newline="False"/>
+        </body>
+    </function>
+    <function name="hinhtron" type="Real" variable="">
+        <parameters>
+            <parameter name="r" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <assign variable="s" expression="3.14*r*r"/>
+        </body>
+    </function>
+</flowgorithm>
